@@ -1,7 +1,6 @@
 "use client";
 
 import axiosClient from "@/app/axiosClient";
-import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -431,14 +430,7 @@ function AgencyCreate() {
                               Current Agency Logo
                               </label>
                               <p className="text-gray-900 whitespace-no-wrap">
-                                    {agency_logo2 && (
-                                        <Image
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${agency_logo2}`}
-                                            alt=""
-
-                                        />
-                                    )}
+                                    dsf
                                 </p>
                       </div>
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import { deleteCookie } from "cookies-next";
-import Image from "next/image";
 import Link from 'next/link';
 import SidebarLinkGroup from "./SidebarLinkGroup";
 
@@ -102,9 +101,6 @@ function UserSidebar({ sidebarOpen, setSidebarOpen }) {
                         </svg>
                     </button>
                     {/* Logo */}
-                    <Link href="/" className="block mx-auto text-slate-200 pt-3">
-                        <Image width={150} src="/uploads/logo.png" alt="logo" />
-                    </Link>
                 </div>
 
                 {/* Links */}

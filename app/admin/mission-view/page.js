@@ -3,7 +3,6 @@
 import { useRouter, useSearchParams } from "next/navigation";
 
 import axiosClient from "@/app/axiosClient";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import "./style.css";
 
@@ -1469,7 +1468,7 @@ function MissionVIew() {
                                                         <ul className="img-grid">
 
                                                             {
-                                                                imageListData.map((item,index)=>(isBase64(item)||item=="")?<li key={index}><label><input name={index} onChange={(e)=>storeImage(e,index)} type='file'/></label></li>: <li key={index}><Image src={`http://localhost:3000/${item}`} alt="Image" /></li>)
+                                                                imageListData.map((item,index)=>(isBase64(item)||item=="")?<li key={index}><label><input name={index} onChange={(e)=>storeImage(e,index)} type='file'/></label></li>: <li key={index}>gfg</li>)
                                                             }
 
                                                         </ul>

@@ -54,16 +54,7 @@ function AgencyList() {
                             {/*    />*/}
                             {/*</div>*/}
                             <div className="ml-3">
-                                <p className="text-gray-900 whitespace-no-wrap">
-                                    {item.agency_logo && (
 
-                                        <Image
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${item.agency_logo}`}
-                                            alt={`${item.name}'s image`}
-                                        />
-                                    )}
-                                </p>
                                 {/*<p className="text-gray-600 whitespace-no-wrap">*/}
                                 {/*    000004*/}
                                 {/*</p>*/}

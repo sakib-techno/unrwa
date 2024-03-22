@@ -70,13 +70,7 @@ function Staff() {
                         <div className="flex">
                             <div className="ml-3">
                                 <p className="text-gray-900 whitespace-no-wrap">
-                                    {item.staff_photo && (
-                                        <Image
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${item.staff_photo}`}
-                                            alt={`${item.name}'s image`}
-                                        />
-                                    )}
+                                    dgdg
                                 </p>
 
                             </div>

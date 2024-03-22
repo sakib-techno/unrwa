@@ -1,7 +1,6 @@
 "use client";
 import axiosClient from "@/app/axiosClient";
 import { getCookie } from 'cookies-next';
-import Image from "next/image";
 import { useRouter } from 'next/navigation'; // Changed from 'next/navigation' to 'next/router'
 import { useEffect, useState } from "react";
 
@@ -72,18 +71,7 @@ function Login() {
                                     <div className='mx-auto bg-white rounded-xl shadow'>
                                         <div className='px-8 py-10'>
                                             <a href='/' className='max-w-[120px] mx-auto mb-2.5 block'>
-                                            {settings.app_logo && (
-                                                    <>
-                                                        <Image
-                                                        src={api_base_url + "/" + settings.app_logo}
-                                                        alt="Image"
-                                                        // onClick={popupImg}
-                                                        className="cursor-pointer object-cover mx-auto my-5 w-80"
-                                                        style={{ float: "" }}
-                                                        />
-                                                        <br />
-                                                    </>
-                                            )}
+
                                             </a>
                                             <h2 className='text-[24px] sm:text-[28px] text-grey-darker text-center mb-10'>
                                                 Reset Password

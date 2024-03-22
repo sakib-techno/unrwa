@@ -1,7 +1,7 @@
 "use client";
 import styles from "@/app/admin/style/deshboard.module.css";
 import axiosClient from "@/app/axiosClient";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
     CategoryScale,
@@ -164,19 +164,12 @@ function Dashboard() {
         }
     }
 
-    // useEffect(() => {
-    //     fetchData()
-    //     getCurrentMonthDateList()
+    useEffect(() => {
+        fetchData()
+        getCurrentMonthDateList()
 
-    //     clusterList();
-
-    // }, []);
-
-
-    fetchData()
-    getCurrentMonthDateList()
-
-    clusterList();
+        clusterList();
+    }, []);
 
     function additem(name, dataList, index) {
         // Generate random RGB values

@@ -1028,16 +1028,7 @@ useEffect(() => {
                               >
                               Current Staff Photo
                               </label>
-                              <p className="text-gray-900 whitespace-no-wrap">
-                                    {staffPhoto2 && (
-                                        <Image
-                                          alt=""
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${staffPhoto2}`}
 
-                                        />
-                                    )}
-                                </p>
                       </div>
 
                       <div className="mb-4">
@@ -1047,16 +1038,7 @@ useEffect(() => {
                               >
                                Current Passport Orginal Attachment
                               </label>
-                              <p className="text-gray-900 whitespace-no-wrap">
-                                    {passportOrginalAttachment2 && (
-                                        <Image
-                                        alt=""
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${passportOrginalAttachment2}`}
 
-                                        />
-                                    )}
-                                </p>
                       </div>
 
                       <div className="mb-4">
@@ -1066,14 +1048,7 @@ useEffect(() => {
                               >
                                Current Passport Duplicate Attachment
                               </label>
-                              {passportDuplicateAttachment2 && (
-                                        <Image
-                                        alt=""
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${passportOrginalAttachment2}`}
 
-                                        />
-                                    )}
                       </div>
 
                       <div className="mb-4">
@@ -1083,16 +1058,7 @@ useEffect(() => {
                               >
                                Current National Id Attachment
                               </label>
-                              <p className="text-gray-900 whitespace-no-wrap">
-                                    {nationaltyAttachment2 && (
-                                        <Image
-                                        alt=""
-                                            className="w-8 h-8 rounded-full object-cover"
-                                            src={`${api_base_url}/${nationaltyAttachment2}`}
 
-                                        />
-                                    )}
-                                </p>
                       </div>
 
                       <div className="mb-4">

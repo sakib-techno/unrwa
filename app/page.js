@@ -78,22 +78,6 @@ function Login() {
                                             href='/'
                                             className='max-w-[120px] mx-auto mb-2.5 block'
                                         >
-                                            {settings.app_logo && (
-                                                <>
-                                                    <Image
-                                                        src={
-                                                            api_base_url +
-                                                            "/" +
-                                                            settings.app_logo
-                                                        }
-
-                                                        alt='Image'
-                                                        // onClick={popupImg}
-                                                        className='cursor-pointer object-cover mx-auto my-5 w-80'
-                                                        style={{ float: "" }}
-                                                    />
-                                                </>
-                                            )}
                                         </a>
                                     </div>
                                     <div className='mx-auto bg-white rounded-xl shadow'>
